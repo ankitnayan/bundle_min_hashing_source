@@ -1,3 +1,16 @@
+Vocab Size: 1,000,003 (nearest prime number to 1M to keep hashing simple)
+Num Bundes: 5,288,778
+Num Keypoints: 11,888,319
+
+
+Please Note
+1. Implementation includes only till results by collision count. No tf-idf, cosine similarity or further implementations
+2. Precision of 97.6% and Recall of 80.42% was obtained on Flickr-32 dataset with 4280 training images and 960 query images
+3. All timings are unoptimized
+
+
+Results - added file "results_classified_sketches_logosonly.csv" containing the classification result of each test image
+
 Documentation - https://docs.google.com/document/d/1QAtGysfp57SebSXBPePj1FwiI0TtvqHxo7ZMOkStQYs/edit
 
 Dictionary - https://drive.google.com/file/d/1RJvNRtawP70g3xuKR-f5Ka7VbCuk02uN/view
