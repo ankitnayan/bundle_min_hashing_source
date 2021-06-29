@@ -23,7 +23,7 @@ INSTALLING
   from the command line. The Makefile attempts to auto-configure a few
   parameters. If this fails, the Makefile returns with an error.  This
   DOES NOT mean that SIFT++ cannot be complied successfully. The
-  program can still be complied by hand, or by modifying the Makefile.
+  program can still be compiled by hand, or by modifying the Makefile.
 
 USAGE
 
@@ -63,7 +63,7 @@ CHANGES
   0.3    Added `--threshold' and `--edge-threshold' opitons to the
          command line driver.
   0.2.2  Corrected a bug in the resolution of the 3x3 linear system.
-         (thanks to Fan Gu for finding this out)
+         (thanks to Fan Gu for discovering this)
   0.2.1  Corrected a bug in the command line driver.
   0.2    Made LAPACK independent.
   0.1    Initial version.
